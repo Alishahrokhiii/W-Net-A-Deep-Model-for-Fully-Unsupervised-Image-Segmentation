@@ -14,7 +14,7 @@ class Config():
 
         self.useInstanceNorm = False # Instance Normalization
         self.useBatchNorm = True # Only use one of either instance or batch norm
-        self.useDropout = True
+        self.useDropout = False
         self.drop = 0.65
 
         # Each item in the following list specifies a module.
